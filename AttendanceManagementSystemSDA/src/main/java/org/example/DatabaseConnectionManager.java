@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnectionManager {
-    private static final String URL = "jdbc:mysql://localhost:3306/attendance_sda";
-    private static final String USER = "root";
-    private static final String PASSWORD = "password"; // enter your own password
+    private static final String URL = "";// enter your own url
+    private static final String USER = "";// enter your own username
+    private static final String PASSWORD = ""; // enter your own password
 
     private DatabaseConnectionManager() {}
 
